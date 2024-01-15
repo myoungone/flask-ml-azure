@@ -11,7 +11,7 @@ variables:
   azureServiceConnectionId: '16de46d0-07f9-4712-a247-f0870425e5e0'
 
   # Web app name
-  webAppName: 'flask-ml-practical-mlops'
+  webAppName: 'myoungone-flask-ml-practical-mlops'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -22,8 +22,8 @@ variables:
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
-  # Python version: 3.7
-  pythonVersion: '3.7'
+  # Python version: 3.8
+  pythonVersion: '3.8'
 
 stages:
 - stage: Build
